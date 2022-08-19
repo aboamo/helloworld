@@ -1,9 +1,12 @@
 <?php 
 namespace HelloWorld;
+
+use Alarm;
+
 class SayHello
 {
     public static function world()
     {
-        return 'Hello World, Composer!';
+        return Alarm::fetchAll();
     }
 }
