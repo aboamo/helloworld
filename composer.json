@@ -14,7 +14,7 @@
 	"autoload": {
         "psr-4": {
             "HelloWorld\\": "src/",
-            "Alarm": ""
+            "Alarm\\": ""
         }
     },
     "autoload-dev": {
