@@ -13,9 +13,8 @@
 	},
 	"autoload": {
         "psr-4": {
-            "psr4\\": "src/"
-        },
-        "psr-0": { "psr0\\": ["src/"] }
+            "any": "src/"
+        }
     },
     "autoload-dev": {
         "psr-4": {
