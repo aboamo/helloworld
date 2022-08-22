@@ -13,8 +13,9 @@
 	},
 	"autoload": {
         "psr-4": {
-            "HelloWorld\\": "src/"
-        }
+            "psr4\\": "src/"
+        },
+        "psr-0": { "psr0\\": ["src/"] }
     },
     "autoload-dev": {
         "psr-4": {
