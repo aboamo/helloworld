@@ -13,7 +13,8 @@
 	},
 	"autoload": {
         "psr-4": {
-            "HelloWorld\\": "src/"
+            "HelloWorld\\": "src/",
+            "Alarm\\": ""
         }
     },
     "autoload-dev": {
