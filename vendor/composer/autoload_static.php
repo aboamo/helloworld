@@ -11,6 +11,10 @@ class ComposerStaticInit1fc875b4502addb292d52f4401f8261b
         array (
             'HelloWorld\\' => 11,
         ),
+        '/' => 
+        array (
+            '/Alarm\\' => 7,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -18,6 +22,10 @@ class ComposerStaticInit1fc875b4502addb292d52f4401f8261b
         array (
             0 => __DIR__ . '/../..' . '/src',
             1 => __DIR__ . '/../..' . '/test',
+        ),
+        '/Alarm\\' => 
+        array (
+            0 => '/',
         ),
     );
 
